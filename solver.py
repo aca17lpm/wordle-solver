@@ -15,8 +15,6 @@ GREEN_SQUARE = '\U0001F7E9'
 YELLOW_SQUARE = '\U0001F7E8'
 GREY_SQUARE = '\u2B1B'
 
-
-
 class Result(Enum):
     GREEN = 'GREEN'
     YELLOW = 'YELLOW'
@@ -35,7 +33,6 @@ def emojify(result: str) -> str:
 class GuessedPosition:
     letter: str
     result: str
-    
 
 @dataclass
 class Guess:
